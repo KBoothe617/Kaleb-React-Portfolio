@@ -1,0 +1,21 @@
+/* global styles and and properties */
+
+:root {
+    /* font */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    /* colors */
+    --color-primary: #30039a;
+    --color-secondary: #046484;
+    --color-tertiary: #0000ff;
+    --background-color: #acacac;
+    --text-color: #000000;
+    --link-color: #ff0000;
+}
