@@ -1,0 +1,19 @@
+.name-background {
+  background-color: var(--color-primary);
+}
+
+.subtitle {
+    color: var(--color-accent);
+    font-size: 25px;
+}
+
+/* flexbox container for navagation list */
+.custom-nav-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fs-custom-h1 {
+    font-size: 1.5rem;
+}
