@@ -1,0 +1,20 @@
+.custom-footer {
+  background-color: var(--background-color);
+}
+
+.linkedin-link,
+.email-link,
+.github-link {
+  color: var(--text-color);
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease;
+}
+
+.linkedin-link:hover,
+.email-link:hover,
+.github-link:hover {
+  color: var(--link-color);
+  border-bottom: 2px solid var(--link-color);
+}
