@@ -1,4 +1,3 @@
-import { fontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './footer.css';
@@ -10,6 +9,7 @@ export default function Footer() {
                 {/* set icons and links */}
                 <a href="https://www.linkedin.com/in/kaleb-boothe-194881293/" className="linkedin-link me-4" aria-label="LinkedIn" style={{ fontSize: '2rem' }} target='_blank' rel="noopener noreferrer"> <fontAwesomeIcon icon={faLinkedin} /> </a>
                 <a href="https://github.com/KBoothe617" className="github-link me-4" aria-label="GitHub" style={{ fontSize: '2rem' }} target='_blank' rel="noopener noreferrer"> <fontAwesomeIcon icon={faGithub} /> </a>
+                <a href="mailto:kboothe617@gmail.com" className="email-link" aria-label="Email" style={{ fontSize: '2rem' }} target='_blank' rel="noopener noreferrer"> <fontAwesomeIcon icon={faEnvelope} /> </a>
             </div>
         </footer>
     )
