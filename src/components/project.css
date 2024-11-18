@@ -23,3 +23,29 @@
     align-items: center;
     flex-direction: column;
 }
+
+.project-container:hover .overlay {
+    opacity: 1;
+}
+
+.project-title {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.project-title:hover {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.github-link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color: var(--link-color);
+}
