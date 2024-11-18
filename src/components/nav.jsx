@@ -9,13 +9,24 @@ export default function Nav() {
             <NavLink
             key={1}
             className="nav-link"
-            to="/"
+            to="/portfolio"
             style={({ isActive }) =>({
                 color: isActive ? 'var(--color-tertiary)' : 'var(--background-color)',
             })}
             >
             About Me
             </NavLink>,
+
+            <NavLink
+            key={2}
+            className="nav-link"
+            to="/projects"
+            style={({ isActive }) =>({
+                color: isActive ? 'var(--color-tertiary)' : 'var(--background-color)',
+            })}
+            >
+            Projects
+            </NavLink>
         ]}
     />
 
