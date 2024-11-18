@@ -20,12 +20,12 @@ export default function Nav() {
             <NavLink
             key={2}
             className="nav-link"
-            to="/projects"
+            to="/protfolio"
             style={({ isActive }) =>({
                 color: isActive ? 'var(--color-tertiary)' : 'var(--background-color)',
             })}
             >
-            Projects
+            Protfolio
             </NavLink>,
 
             <NavLink
@@ -37,6 +37,17 @@ export default function Nav() {
             })}
             >
             Contact
+            </NavLink>,
+
+            <NavLink
+            key={4}
+            className="nav-link"
+            to="/resume"
+            style={({ isActive }) =>({
+                color: isActive ? 'var(--color-tertiary)' : 'var(--background-color)',
+            })}
+            >
+            Resume
             </NavLink>,
         ]}
     />
