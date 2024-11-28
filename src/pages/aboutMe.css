@@ -11,3 +11,12 @@
     margin: 0 auto;
     max-width: 800px;
 }
+
+.about-me-bio {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.about-me-bio h2 {
+    text-align: center;
+}
